@@ -1,9 +1,27 @@
-# Copains d'apres V2 - applications de colocations pour seniors
+# Copains d’après V.2 : README.md
+
+# Projet Application de colocation pour seniors
+
 ## Table des matières
+
+1. [Installation](https://www.notion.so/Copains-d-apr-s-README-md-a400c59cc55245d38020b814f0f5efeb?pvs=21)
+    - [Installer Node.js](### 1. Installer Node.js)
+
+2. [Documentation](### Documentation)
+3. [Technos](### Technos)
+
+
+
+## Installation
+
+### 1. Installer Node.js
+
+Si Node.js n'est pas déjà installé, vous pouvez le télécharger et l'installer depuis le site officiel : [Node.js](https://nodejs.org/)
+
+### Documentation
+
 ### Technos
 Base de données : MySql.
 Système de gestion de base de données.
 Backend : Node.js.
 Front-end : React.
-
-
