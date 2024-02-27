@@ -1,13 +1,16 @@
 import mysql from "mysql";
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 // Création d'un groupe de connexions pour la base de données MySQL
 export const pool = mysql.createPool({
-    connectionLimit: 10000,
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "copains-dapres",
-    socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
+    connectionLimit: process.env.DB_CONNECTION_LIMIT,
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    socketPath: process.env.DB_SOCKET_PATH,
 });
 
 // Vérifier la connexion à la base de données
