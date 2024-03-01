@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "develop": "node server.js"
+    "develop": "node server.js",
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
