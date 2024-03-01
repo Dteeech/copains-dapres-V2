@@ -1,5 +1,9 @@
-function Home() {
-    return ( <h1>Page home</h1> );
+import Hero from '../components/hero/Hero'
+function Home () {
+  return (
+    <Hero />
+
+  )
 }
 
-export default Home;
+export default Home

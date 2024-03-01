@@ -1,11 +1,13 @@
 import './App.css'
 import Router from './navigation/Router'
 import Header from './components/header/Header'
-function App() {
-  return(
+import Footer from './components/footer/Footer'
+function App () {
+  return (
     <>
       <Header />
       <Router />
+      <Footer />
     </>
   )
 }

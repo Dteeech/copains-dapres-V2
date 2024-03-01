@@ -1,6 +1,6 @@
 import express from 'express'
 import { pool, asyncQuery } from './config/db.js';
-
+import router from './routes/routes.js';
 
 const app = express();
 const PORT = 3001;
@@ -16,17 +16,9 @@ app.use((req, res, next) => {
 // Middleware pour parser le corps des requêtes en JSON
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use("/api", router);
 // Route pour obtenir tous les utilisateurs
-app.get('/user', async (req, res) => {
-  try {
-    const result = await asyncQuery("SELECT * FROM User");
-    res.json({ result });
-  } catch (error) {
-    console.error("Erreur lors de la requête SQL:", error.message);
-    res.status(500).json({ error: "Erreur serveur lors de la requête SQL" });
-  }
-});
+
 
 // Démarrage du serveur sur le port 3001
 app.listen(PORT, () => {

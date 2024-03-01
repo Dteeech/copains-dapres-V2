@@ -5,7 +5,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "develop": "node server.js"
   },
   "author": "",
   "license": "ISC",
