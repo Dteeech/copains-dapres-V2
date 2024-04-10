@@ -1,6 +1,8 @@
 import express from 'express'
 import { pool, asyncQuery } from './config/db.js';
 import router from './routes/routes.js';
+import getAllUsers from './controllers/getAllUsers.js';
+
 
 const app = express();
 const PORT = 3001;
@@ -16,10 +18,12 @@ app.use((req, res, next) => {
 // Middleware pour parser le corps des requêtes en JSON
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/api", router);
+// app.use("/api", router);
 // Route pour obtenir tous les utilisateurs
-
-
+app.get("/test", (req, res => {
+  res.send("test réussi")
+}))
+app.get("/users", getAllUsers.getAllUsers)
 // Démarrage du serveur sur le port 3001
 app.listen(PORT, () => {
   console.log(`Le serveur est démarré à http://localhost:${PORT}`);
