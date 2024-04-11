@@ -1,7 +1,7 @@
 import './hero.css'
 function Hero () {
   return (
-    <div className='hero'>
+    <div className='hero container overflow-auto h-screen'>
 
       <h1>Page d'accueil</h1>
 
