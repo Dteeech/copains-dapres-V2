@@ -3,6 +3,8 @@ import communicationPictos from '../assets/images/pictos/communication.svg'
 import developmentPictos from '../assets/images/pictos/development-devices.svg'
 import tasksPictos from '../assets/images/pictos/tasks.svg'
 import tasksUnderPressurePictos from '../assets/images/pictos/tasks-under-pressure.svg'
+import HouseCard from '../components/cards/HouseCard'
+
 function Home () {
   return (
     <>
@@ -16,9 +18,9 @@ function Home () {
             créez des souvenirs
           </h1>
         </div>
-        <div className=' relative container w-1/4 flex justify-center m-auto my-16'>
-          <img className='absolute left-6 top-3' src={searchIcon} alt='' />
-          <input placeholder='colocation nantes pour 4' className='placeholder:text-center shadow appearance-none border rounded-full h-14 bg-gray-50 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' type='text' name='' id='' />
+        <div className='relative w-2/4 flex justify-center m-auto my-16 shadow appearance-none border rounded-full h-14 bg-gray-50 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'>
+          <img className='absolute left-6 top-3 ' src={searchIcon} alt='' />
+          <input placeholder='colocation nantes pour 4' className='w-56 placeholder:text-center bg-gray-50 search' type='text' name='' id='' />
         </div>
       </section>
       <section className='h-50 my-8 bg-secondary_bg'>
@@ -40,6 +42,19 @@ function Home () {
             <p>Plus de 500 partenaires</p>
           </div>
         </div>
+      </section>
+      <section>
+        <h2>Nos différentes propositions près de chez vous</h2>
+        <div className='grid grid-col-3 grid-flow-col justify-center gap-12'>
+
+          <HouseCard />
+
+          <HouseCard />
+
+          <HouseCard />
+
+        </div>
+        {/* TODO map des habitations enregistrées */}
       </section>
 
     </>
