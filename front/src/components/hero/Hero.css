@@ -1,9 +1,9 @@
 .hero {
     padding: 14px;
-    background-image:url('../../../public/images/Pois.jpg');
+    background-image:url('../../assets/images/Pois.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     border-radius: 8px;
 }
