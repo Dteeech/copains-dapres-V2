@@ -18,7 +18,7 @@ function Home () {
             créez des souvenirs
           </h1>
         </div>
-        <div className='relative w-2/4 flex justify-center m-auto my-16 shadow appearance-none border rounded-full h-14 bg-gray-50 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'>
+        <div className='relative w-2/6 flex justify-center m-auto my-16 shadow appearance-none border rounded-full h-14 bg-gray-50 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'>
           <img className='absolute left-6 top-3 ' src={searchIcon} alt='' />
           <input placeholder='colocation nantes pour 4' className='w-56 placeholder:text-center bg-gray-50 search' type='text' name='' id='' />
         </div>
@@ -44,7 +44,10 @@ function Home () {
         </div>
       </section>
       <section>
-        <h2>Nos différentes propositions près de chez vous</h2>
+        <h2 className='text-center text-primary-500 my-6'>Nos différentes propositions
+          <br />
+          près de chez vous...
+        </h2>
         <div className='grid grid-col-3 grid-flow-col justify-center gap-12'>
 
           <HouseCard />

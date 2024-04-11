@@ -12,6 +12,10 @@ h1 {
   font-size: xx-large !important;
   font-weight: bold !important;
 }
+h2 {
+  font-size: x-large !important;
+  font-weight: bold !important;
+}
 
 .search:focus-visible {
   outline: none;
