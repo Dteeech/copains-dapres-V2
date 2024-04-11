@@ -10,7 +10,7 @@ import quiPicto from '../../assets/images/icons/qui.svg'
 
 function Header () {
   return (
-    <header className=' w-full fixed top-0 left-0 flex align-middle justify-between bg-secondary_bg shadow-2xl px-6'>
+    <header className=' w-full fixed top-0 left-0 flex align-middle justify-between bg-secondary_bg shadow-md px-6'>
       <a href='/' className='logo h-auto'>
         <img src={logo} alt='logo' width='200' height='auto' />
       </a>
