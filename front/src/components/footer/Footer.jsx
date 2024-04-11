@@ -2,7 +2,7 @@ import './Footer.css'
 
 function Footer () {
   return (
-    <footer className='w-full h-30 text-start absolute bottom-0 left-0 flex gap-10 bg-secondary_bg shadow-2xl py-6 px-10'>
+    <footer className='w-full h-30 text-start absolute left-0 flex gap-10 bg-secondary_bg shadow-2xl py-6 px-10'>
       <div className='flex flex-col  align-top w-1/4'>
         <h2 className='border-b-2 border-black'>Liens</h2>
         <nav className=' flex flex-col'>
