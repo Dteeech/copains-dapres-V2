@@ -5,13 +5,11 @@ const useFetch = (endpoint) => {
   const [response, setResponse] = useState()
   const [error, setError] = useState()
   const [isLoading, setIsLoading] = useState(false)
-  
- 
   useEffect(() => {
     const getData = async () => {
       setIsLoading(true)
       try {
-        const response = await axios.get(process.env.REACT_APP_BASE_URL_APIL + endpoint)
+        const response = await axios.get(endpoint)
         console.log(response)
         setResponse(response.data.data)
         setIsLoading(false)
