@@ -5,9 +5,9 @@
 // import tasksUnderPressurePictos from '../assets/images/pictos/tasks-under-pressure.svg'
 // import HouseCard from '../components/cards/HouseCard'
 import { useFetch } from '../hooks/Api'
-
+const apiUrl = process.env.REACT_APP_BASE_URL_API
 function Home () {
-  const { response, error, loading } = useFetch(`${process.env.local.REACT_APP_BASE_URL_API}/users`)
+  const { response, error, loading } = useFetch(`/users`)
   if (loading) return <h1>Chargement ...</h1>
   if (error) return <pre>{JSON.stringify(error, null, 2)}</pre>
   if (response) return <pre>{JSON.stringify(response, null, 2)}</pre>
