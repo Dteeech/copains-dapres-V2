@@ -3,7 +3,7 @@ import ReviewStars from './ReviewStars';
 import googleIcon from '../../../assets/images/icons/google.svg'
 function ReviewCard() {
     return (
-        <div className='p-4 bg-gray-200 rounded-2xl h-84 relative '>
+        <div className='p-6 bg-gray-200 rounded-2xl h-84 relative'>
             {/* TODO mettre les parametres pour récupérer du fetch */}
             <div className='flex'>
                 <img className='rounded-2xl mb-8 rounded-e-full' src={Briac} width='auto' height='120px' alt='' />
@@ -12,11 +12,11 @@ function ReviewCard() {
                 <p className='text-xl'> <strong>Briac</strong> </p>
                 <p className='text-xs text-gray-500'>23-04-2024</p>
                 </div>
-                <div className="absolute right-5"><img className='' src={googleIcon} alt="" /></div>
+                <div className="absolute right-5"><img src={googleIcon} alt="" /></div>
             </div>
             <div><ReviewStars /></div>
             <div>
-                <p className='my-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit vitae fugiat similique velit aperiam laudantium inventore dolorum placeat ratione fuga deleniti sunt cum, sapiente aspernatur, iusto voluptatem, numquam nemo.</p>
+                <p className='my-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
             </div>
         </div>
 

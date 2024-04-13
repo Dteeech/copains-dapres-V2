@@ -5,11 +5,11 @@ import tasksPictos from '../assets/images/pictos/tasks.svg'
 import tasksUnderPressurePictos from '../assets/images/pictos/tasks-under-pressure.svg'
 import HouseCard from '../components/cards/HouseCard'
 import ReviewCard from '../components/cards/reviews/ReviewCard'
-
+import cornerPropositions from '../assets/images/pictos/corner-propositions.svg'
 // import { useFetch } from '../hooks/Api'
 const apiUrl = process.env.REACT_APP_BASE_URL_API
 function Home() {
- 
+
   return (
     <>
       <section>
@@ -27,12 +27,14 @@ function Home() {
           <input placeholder='colocation nantes pour 4' className='w-56 placeholder:text-center bg-gray-50 search' type='text' name='' id='' />
         </div>
       </section>
-      <section className='h-50 my-8 bg-secondary_bg'>
+      <section className='h-50 my-8 bg-secondary_bg py-20'>
+        
         <div className='grid grid-cols-4 mx-auto justify-heavenly'>
+          
           <div className='flex items-center flex-col'>
             <img src={communicationPictos} alt='' />
             <p>Entreprise à l'écoute</p>
-            
+
           </div>
           <div className='flex items-center flex-col'>
             <img src={developmentPictos} alt='' />
@@ -48,30 +50,33 @@ function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className='relative'>
         <h2 className='text-center text-primary-500 my-6'>Nos différentes propositions
           <br />
           près de chez vous...
         </h2>
-        <div className='grid grid-col-3 grid-flow-col justify-center gap-12'>
-
+          <img className='absolute right-40 top-10 -z-10' src={cornerPropositions} alt="" />
+        <div className=' grid grid-col-3 grid-flow-col justify-center gap-12'>
+        
           <HouseCard />
 
           <HouseCard />
 
           <HouseCard />
-
         </div>
 
         {/* TODO map des habitations enregistrées */}
       </section>
-      <section className='mt-24 container'>
-
+      <section className='mt-24'>
+        <div className="flex flex-col container">
         <h2>Ils nous ont jugés gage de qualité !</h2>
-        <div className='grid grid-col-3 grid-flow-col justify-center gap-12 mx-20'>
-          <ReviewCard />
-          <ReviewCard />
-          <ReviewCard />
+          <div className='grid grid-cols-4 gap-4 my-6'>
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+          </div>
+          <p>Évalutation Google: 5/5, basé sur 80 avis</p>
         </div>
       </section>
 

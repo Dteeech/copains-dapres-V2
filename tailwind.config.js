@@ -9,17 +9,20 @@ export default {
   theme: {
     container: {
       padding: '2rem',
+      center: true,
     },
     extend: {
       colors: {
         primary: {
-          500: '#00beaa'
+          500: '#00beaa',
+          
         },
         secondary: {
           500: '#ff524d'
         },
         primary_bg: '#f9f9f9',
-        secondary_bg: '#f9f9f9'
+        secondary_bg: 'rgba(255, 173, 157, .5)',
+        squareMeter: '#EDE2E2'
       }
     }
   },
