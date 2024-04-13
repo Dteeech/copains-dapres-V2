@@ -4,6 +4,8 @@ import developmentPictos from '../assets/images/pictos/development-devices.svg'
 import tasksPictos from '../assets/images/pictos/tasks.svg'
 import tasksUnderPressurePictos from '../assets/images/pictos/tasks-under-pressure.svg'
 import HouseCard from '../components/cards/HouseCard'
+import ReviewCard from '../components/cards/reviews/ReviewCard'
+
 // import { useFetch } from '../hooks/Api'
 const apiUrl = process.env.REACT_APP_BASE_URL_API
 function Home() {
@@ -60,7 +62,17 @@ function Home() {
           <HouseCard />
 
         </div>
+
         {/* TODO map des habitations enregistrées */}
+      </section>
+      <section>
+
+        <h2>Ils nous ont jugés gage de qualité !</h2>
+        <div className='grid grid-col-3 grid-flow-col justify-center gap-12 '>
+          <ReviewCard />
+          <ReviewCard />
+          <ReviewCard />
+        </div>
       </section>
 
     </>

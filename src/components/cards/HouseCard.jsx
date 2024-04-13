@@ -1,4 +1,4 @@
-import housePic from '../../../public/house-picture.png'
+import housePic from '../../../public/house-picture.webp'
 function HouseCard () {
   return (
     <div className='p-4 bg-gray-200 rounded-2xl h-84 w-72 '>
