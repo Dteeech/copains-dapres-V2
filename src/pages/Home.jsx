@@ -65,10 +65,10 @@ function Home() {
 
         {/* TODO map des habitations enregistrées */}
       </section>
-      <section>
+      <section className='mt-24 container'>
 
         <h2>Ils nous ont jugés gage de qualité !</h2>
-        <div className='grid grid-col-3 grid-flow-col justify-center gap-12 '>
+        <div className='grid grid-col-3 grid-flow-col justify-center gap-12 mx-20'>
           <ReviewCard />
           <ReviewCard />
           <ReviewCard />
