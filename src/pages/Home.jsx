@@ -22,7 +22,7 @@ function Home() {
             créez des souvenirs
           </h1>
         </div>
-        <div className='relative w-2/4 flex justify-center m-auto my-16 shadow appearance-none border rounded-full h-14 bg-gray-50 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'>
+        <div className='relative flex justify-center m-auto my-16 shadow appearance-none border rounded-full h-14 bg-gray-50 w-2/5 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'>
           <img className='absolute left-6 top-3 ' src={searchIcon} alt='' />
           <input placeholder='colocation nantes pour 4' className='w-56 placeholder:text-center bg-gray-50 search' type='text' name='' id='' />
         </div>
