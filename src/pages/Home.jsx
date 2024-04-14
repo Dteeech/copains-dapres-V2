@@ -6,6 +6,7 @@ import tasksUnderPressurePictos from '../assets/images/pictos/tasks-under-pressu
 import HouseCard from '../components/cards/HouseCard'
 import ReviewCard from '../components/cards/reviews/ReviewCard'
 import cornerPropositions from '../assets/images/pictos/corner-propositions.svg'
+import Accordeon from '../components/accordeon/Accordeon'
 // import { useFetch } from '../hooks/Api'
 const apiUrl = process.env.REACT_APP_BASE_URL_API
 function Home() {
@@ -27,7 +28,7 @@ function Home() {
           <input placeholder='colocation nantes pour 4' className='w-56 placeholder:text-center bg-gray-50 search' type='text' name='' id='' />
         </div>
       </section>
-      <section className='h-50 my-8 bg-secondary_bg py-20'>
+      <section className='h-50 my-8 bg-secondary_bg-600 py-20'>
         
         <div className='grid grid-cols-4 mx-auto justify-heavenly'>
           
@@ -78,6 +79,10 @@ function Home() {
           </div>
           <p>Évalutation Google: 5/5, basé sur 80 avis</p>
         </div>
+      </section>
+      <section>
+        <h2 className='text-center text-primary-500'>Notre FAQ pour répondre à vos questionnements</h2>
+        <Accordeon />
       </section>
 
     </>

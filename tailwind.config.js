@@ -15,13 +15,16 @@ export default {
       colors: {
         primary: {
           500: '#00beaa',
-          
+
         },
         secondary: {
           500: '#ff524d'
         },
         primary_bg: '#f9f9f9',
-        secondary_bg: 'rgba(255, 173, 157, .5)',
+        secondary_bg: {
+          500: '#FFAD9D',
+          600: 'rgba(255, 173, 157, .5)',
+        },
         squareMeter: '#EDE2E2'
       }
     }

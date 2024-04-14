@@ -17,7 +17,7 @@ function HouseCard () {
       
       <p className='my-8 p-2 border-spacing-6 rounded-full bg-squareMeter text-center max-w-20 '>89m²</p>
       {/*TODO faire la remontée des pictos des filtres et faire le composant pour le picto*/}
-      <p className='my-8 p-2 border-spacing-6 border-2 rounded-full bg-secondary_bg text-center w-fit'><img src={city} className='w-full h-auto' alt='' /></p>
+      <p className='my-8 p-2 border-spacing-6 border-2 rounded-full bg-secondary_bg-500 text-center w-fit'><img src={city} className='w-full h-auto' alt='' /></p>
 
     </div>
   )
