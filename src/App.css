@@ -17,6 +17,16 @@ h2 {
   font-weight: bold !important;
 }
 
+.heroBackground {
+  background-image: url('./assets/images/hero-backgrounds/auth.webp');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
 .search:focus-visible {
   outline: none;
 }
