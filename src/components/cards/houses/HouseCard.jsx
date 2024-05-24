@@ -1,7 +1,7 @@
-import housePic from '../../../public/house-picture.webp'
-import heart from '../../assets/images/icons/heart.svg'
-import photoIcon from '../../assets/images/icons/photo-icon.svg'
-import city from '../../assets/images/icons/city.svg'
+import housePic from '../../../../public/location_1.webp'
+import heart from '../../../assets/images/icons/heart.svg'
+import photoIcon from '../../../assets/images/icons/photo-icon.svg'
+import city from '../../../assets/images/icons/city.svg'
 function HouseCard () {
   return (
     <div className='relative p-4 bg-primary-600 rounded-2xl h-84 w-72 '>

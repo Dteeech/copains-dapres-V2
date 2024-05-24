@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "label": "Ville",
+      "icon": "/assets/images/icons/city.svg",
+      "value": "Ville"
+    },
+    {
+      "id": 2,
+      "label": "Immeuble",
+      "icon": "/assets/images/icons/appartement.svg",
+      "value": "Appartement"
+    },
+    {
+      "id": 3,
+      "label": "Garage",
+      "icon": "/assets/images/icons/garage.svg",
+      "value": "Garage"
+    },
+    {
+      "id": 4,
+      "label": "Campagne",
+      "icon": "/assets/images/icons/campagne.svg",
+      "value": "Campagne"
+    },
+    {
+      "id": 5,
+      "label": "Piscine",
+      "icon": "/assets/images/icons/piscine.svg",
+      "value": "Piscine"
+    },
+    {
+      "id": 6,
+      "label": "Mer",
+      "icon": "/assets/images/icons/vague.svg",
+      "value": "Mer"
+    },
+    {
+      "id": 7,
+      "label": "Maison",
+      "icon": "/assets/images/icons/maison.svg",
+      "value": "Maison"
+    }
+  ]
+  
