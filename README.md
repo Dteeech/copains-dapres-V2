@@ -2,6 +2,12 @@
 
 # Projet Application de colocation pour seniors
 
+## Lancer le projet
+ 
+- Cloner le projet
+- Ouvrir le projet dans un IDE et lancer la commande npm install
+- Lancer la commande npm run dev pour faure tourner le projet
+
 ## Table des matières
 
 1. [Installation](https://www.notion.so/Copains-d-apr-s-README-md-a400c59cc55245d38020b814f0f5efeb?pvs=21)
