@@ -31,7 +31,14 @@ const initialState = {
  */
 const authReducer = (prevState, action) => {
   switch (action.type) {
+    // case actionTypes.REGISTER:
     case actionTypes.REGISTER:
+      return {
+        ...prevState,
+        isLoggedIn: true,
+        loading: false,
+        error: null
+      }
     case actionTypes.LOGIN:
       return {
         jwt: action.data.jwt,
@@ -100,12 +107,25 @@ const authFactory = (dispatch) => ({
     try {
       const result = await registerApi(credentials)
       dispatch({
-        type: actionTypes.LOGIN,
-        data: {
-          user: result.user,
-          jwt: result.jwt
+        type: actionTypes.REGISTER,
+          data: {
+            lastName: result.lastName,
+            firstName: result.firstName,
+            email: result.email,
+            password: result.password,
+            role: 'Authenticated'
         }
       })
+      try {
+        await authFactory(dispatch).login(credentials)
+      } catch (error) {
+        console.log(error)
+        toast.error('Une erreur est survenue lors de la connexion')
+        dispatch({
+          type: actionTypes.ERROR,
+          data: { error: 'Une erreur est survenue lors de la connexion' }
+        })
+      }
     } catch (error) {
       console.error(error)
       toast.error('Identfiant ou mot de passe incorrect')

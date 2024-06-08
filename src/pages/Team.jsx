@@ -3,7 +3,16 @@ import lola from '../../public/assets/images/Team/lola.png'
 import anthony from '../../public/assets/images/Team/anthony.png'
 import valentin from '../../public/assets/images/Team/valentin.png'
 import eva from '../../public/assets/images/Team/eva.png'
-import owen from '../../public/assets/images/Team/owen.png'
+import owen from '../../public/assets/images/Team/owen.png' 
+
+/*
+const isaac = '/assets/images/Team/isaac.png?url'
+const lola = '/assets/images/Team/lola.png?url'
+const anthony = '/assets/images/Team/anthony.png?url'
+const owen = '/assets/images/Team/owen.png?url'
+const valentin = '/assets/images/Team/valentin.png?url'
+const eva = '/assets/images/Team/eva.png?url' */
+
 function Team() {
     return (
         <>

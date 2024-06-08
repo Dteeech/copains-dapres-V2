@@ -1,4 +1,5 @@
-import housePic from '../../../../public/location_1.webp'
+import housePic from '../../../../public/location_1.webp' 
+// import housePic from '/assets/images/location_1.webp?url'
 import heart from '../../../assets/images/icons/heart.svg'
 import photoIcon from '../../../assets/images/icons/photo-icon.svg'
 import city from '../../../assets/images/icons/city.svg'
