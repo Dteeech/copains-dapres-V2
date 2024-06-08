@@ -12,8 +12,8 @@ Ce projet est la partie front-end du site "Copains d'Après", une application we
     - [Installer Node.js](###installer-node.js)
     - [Installer et lancer le projet](###installer-et-lancer-le-projet)
 
-3. [Documentation](## Documentation)
-4. [Technos](## Technos)
+3. [Documentation](##documentation)
+4. [Technos](##technos)
 
 ## Projet d'application de colocation pour seniors
 
