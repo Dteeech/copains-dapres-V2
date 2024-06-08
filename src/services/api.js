@@ -70,11 +70,17 @@ const getHouseShareApi = async () => {
   return response?.data
 }
 
+const getAdvertApi = async (id) => {
+  const response = await axiosInstance.get(`/adverts/${id}`)
+  return response?.data
+}
+
 export { 
   testApi, 
   loginApi, 
   registerApi, 
   updateMeApi,
   getAdvertsApi,
-  getHouseShareApi
+  getHouseShareApi,
+  getAdvertApi
 }
