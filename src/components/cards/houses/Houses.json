@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Colocation appartement T4 Nantes Sainte-Thérèse",
+    "price": "1000 €",
+    "size": "89 m²",
+    "image": "/location_3.webp",
+    "category": "city",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Colocation appartement T5 spacieux, La Baule",
+    "price": "1500 €",
+    "size": "83 m²",
+    "image": "/location_1.webp",
+    "category": "sea",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Colocation appartement T3 au bord de la mer, Pornichet",
+    "price": "1300 €",
+    "size": "78 m²",
+    "image": "/location_2.webp",
+    "category": "sea",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Colocation appartement T4 centre ville, Rennes",
+    "price": "1200 €",
+    "size": "85 m²",
+    "image": "/location_4.webp",
+    "category": "city",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Colocation appartement T3 proche campus, Lyon",
+    "price": "1100 €",
+    "size": "70 m²",
+    "image": "/location_5.webp",
+    "category": "city",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Colocation appartement T5 avec terrasse, Marseille",
+    "price": "1600 €",
+    "size": "95 m²",
+    "image": "/location_6.webp",
+    "category": "sea",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Colocation appartement T4 vue sur mer, Nice",
+    "price": "1800 €",
+    "size": "90 m²",
+    "image": "/location_7.webp",
+    "category": "sea",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Colocation appartement T4 moderne, Bordeaux",
+    "price": "1400 €",
+    "size": "88 m²",
+    "image": "/location_8.webp",
+    "category": "city",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Colocation appartement T3 rénové, Toulouse",
+    "price": "1250 €",
+    "size": "75 m²",
+    "image": "/location_9.webp",
+    "category": "city",
+    "icons": {
+      "heart": "/assets/images/icons/heart.svg",
+      "photoIcon": "/assets/images/icons/photo-icon.svg",
+      "city": "/assets/images/icons/city.svg"
+    }
+  }
+]

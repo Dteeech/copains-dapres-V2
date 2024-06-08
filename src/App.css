@@ -1,7 +1,7 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  margin-top:100px;
+  margin-top:75px;
   padding-top: 2rem;
 }
 *{
@@ -17,6 +17,26 @@ h2 {
   font-weight: bold !important;
 }
 
+.heroBackground {
+  background-image: url('./assets/images/hero-backgrounds/auth.webp');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.homePageHero {
+  background-image: url('./assets/images/hero-backgrounds/accueil.webp');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 75vh;
+  justify-content: center;
+  align-items:center ;
+  padding:4rem;
+}
 .search:focus-visible {
   outline: none;
 }
@@ -35,3 +55,4 @@ h2 {
     animation: logo-spin infinite 20s linear;
   }
 }
+
