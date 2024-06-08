@@ -1,4 +1,5 @@
 import Briac from '../../../../public/user-review.webp'
+// import Briac from '/assets/images/user-review.png?url'
 import ReviewStars from './ReviewStars';
 import googleIcon from '../../../assets/images/icons/google.svg'
 function ReviewCard() {
